@@ -1,0 +1,18 @@
+current directory: /home/hamid/pr_test/vendor/bundle/ruby/3.1.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+/home/hamid/.rbenv/versions/3.1.0/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/hamid/pr_test/vendor/bundle/ruby/3.1.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20230801-33314-3xcqnm sitelibdir\=./.gem.20230801-33314-3xcqnm clean
+
+current directory: /home/hamid/pr_test/vendor/bundle/ruby/3.1.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20230801-33314-3xcqnm sitelibdir\=./.gem.20230801-33314-3xcqnm
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: /home/hamid/pr_test/vendor/bundle/ruby/3.1.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20230801-33314-3xcqnm sitelibdir\=./.gem.20230801-33314-3xcqnm install
+/usr/bin/install -c -m 0755 websocket_mask.so ./.gem.20230801-33314-3xcqnm
+
+current directory: /home/hamid/pr_test/vendor/bundle/ruby/3.1.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20230801-33314-3xcqnm sitelibdir\=./.gem.20230801-33314-3xcqnm clean

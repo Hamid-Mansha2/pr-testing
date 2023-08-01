@@ -1,0 +1,18 @@
+current directory: /home/hamid/pr_test/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.16.0/ext/bootsnap
+/home/hamid/.rbenv/versions/3.1.0/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/hamid/pr_test/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20230801-33314-pb5yud sitelibdir\=./.gem.20230801-33314-pb5yud clean
+
+current directory: /home/hamid/pr_test/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20230801-33314-pb5yud sitelibdir\=./.gem.20230801-33314-pb5yud
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.so
+
+current directory: /home/hamid/pr_test/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20230801-33314-pb5yud sitelibdir\=./.gem.20230801-33314-pb5yud install
+/usr/bin/install -c -m 0755 bootsnap.so ./.gem.20230801-33314-pb5yud/bootsnap
+
+current directory: /home/hamid/pr_test/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20230801-33314-pb5yud sitelibdir\=./.gem.20230801-33314-pb5yud clean

@@ -1,0 +1,13 @@
+language: ruby
+
+jobs:
+  include:
+    - name: "Branch Build"
+      if: type != pull_request
+      script:
+        true
+
+    - name: "Pull Request Build"
+      if: type = pull_request
+      script:
+        true
