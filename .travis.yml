@@ -1,14 +1,12 @@
-language: ruby
-
+language: python
 jobs:
   include:
     - name: "Branch Build"
       if: type != pull_request
       script:
-        true
+        - pytest -m "not requires_gpu and not pr_only"
 
     - name: "Pull Request Build"
       if: type = pull_request
       script:
-        true
-####
+        - pytest -m "not requires_gpu"
